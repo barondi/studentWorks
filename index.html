@@ -23,7 +23,7 @@
     <%$.each(data,function(index,item){%>
     <%index++;%>
     <li>
-        <a href="<%=item.address%>" target="_blank">
+        <a href="<%=item.address%>">
             <span><%=index<10?'0'+index:index%></span>
             <span><%=item.class%> <i><%=item.name%></i> 同学的作品</span>
         </a>
