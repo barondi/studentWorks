@@ -73,6 +73,8 @@
             cache: false,
             success: function (data) {
                 data.reverse();
+                data.unshift(data[data.length - 1]);
+                data.length--;
                 $('.content>ul').html(ejs.render($('#listTemplate').html(), {data: data}));
                 listScroll.refresh();
             }
