@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!--禁止浏览器自己把页面中的数字识别为电话号码-->
+    <meta name="format-detection" content="telephone=no"/>
+    <!--把苹果手机浏览器中的菜单栏工具栏隐藏-->
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <!--控制状态栏显示样式-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!--http://www.admin10000.com/document/6304.html-->
+    <!--设置苹果手机到头后在下来出现的那个黑色背景框中的标题的-->
+    <meta name="apple-mobile-web-app-title" content="标题">
+    <title>RESUME</title>
+
+    <link rel="stylesheet" href="css/loaders.min.css">
+    <link charset="UTF-8" rel="stylesheet" href="css/swiper-3.3.1.min.css">
+    <link charset="UTF-8" rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide slide1 slider" trueId="slide1">
+            <!--loading-->
+            <div class="loading">
+                <div class="loader-inner ball-scale-ripple-multiple">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <!--loading end-->
+            <div class="bg">
+                <div class="head">
+                    <div class="frame">
+                        <span>求职</span>
+                        <span>简历</span>
+                        <div><img src="img/zhi.png" alt="">
+                        </div>
+                    </div>
+                    <img src="" alt="">
+                </div>
+                <ul class="desc">
+                    <li><span>期望职业:前端工程师</span></li>
+                    <li><span>期望薪资:100k~200k</span></li>
+                    <li><span>工作地点:北京</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="swiper-slide slide2 slider" trueId="slide2">
+            <div class="bg">
+                <div class="head">
+                    <div class="avatar"><img src="img/Mario.jpg" alt=""></div>
+                    <span class="name">尤成</span><br/>
+                    <div class="info">
+                        <span>性别:男</span>
+                        <span>学历:本科</span>
+                        <span>院校:珠峰</span>
+                        <span>专业:前端开发</span>
+                    </div>
+
+                    <ul class="desc">
+                        <li><span>18510888888</span></li>
+                        <li><span>youcheng@gmail.com</span></li>
+                        <li><span>北京市海淀区</span></li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="swiper-slide slide3 slider" trueId="slide3">
+            <div class="bg">
+                <div class="head">
+                    <div class="head-bg">
+                        <div class="head-fg">
+                            <div class="title-circle">
+                                <div class="title-outer">
+                                    <div class="title-inner">
+                                        <span>技能掌握</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="desc">
+                    <div class="row">
+                        <div class="left">JavaScript:</div>
+                        <div class="right">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="left">Node.js:</div>
+                        <div class="right">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="left">jQuery:</div>
+                        <div class="right">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="left">Angular:</div>
+                        <div class="right">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide slide4 slider" trueId="slide4">
+            <div class="bg">
+                <div class="swiper-container1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" id="a1"></div>
+                        <div class="swiper-slide" id="a2"></div>
+                        <div class="swiper-slide" id="a3"></div>
+                    </div>
+                    <div class="swiper-pagination1"></div>
+                </div>
+                <div class="desc">
+                    作品展示
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide slide5 slider" trueId="slide5">
+
+            <div class="top"></div>
+            <div class="bottom"></div>
+            <div class="triangle"></div>
+            <div class="qrcode"></div>
+            <div class="desc">Thanks.</div>
+
+        </div>
+    </div>
+</div>
+<div class="arrow">
+    <span></span>
+</div>
+<div class="audio" id="arrow">
+    <!--一定要写 preload=none, 否则 canplay 事件无法触发-->
+    <audio src="audio/black_tears.mp3" preload="none"></audio>
+</div>
+
+<script charset="UTF-8" type="text/javascript" src="js/zepto.min.js"></script>
+<script charset="UTF-8" type="text/javascript" src="js/swiper-3.3.1.min.js"></script>
+<script charset="UTF-8" type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

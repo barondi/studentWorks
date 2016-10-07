@@ -72,10 +72,21 @@
             dataType: 'json',
             cache: false,
             success: function (data) {
-                data.reverse();
-                data.unshift(data[data.length - 1]);
-                data.length--;
-                $('.content>ul').html(ejs.render($('#listTemplate').html(), {data: data}));
+                var ary = [];
+                $.each(data, function (index, item) {
+                    if (item['isFlag']) {
+                        ary.unshift(item);
+                        return;
+                    }
+                    ary.push(item);
+                });
+                ary.sort(function (a, b) {
+                    a['isFlag'] = a['isFlag'] || 0;
+                    b['isFlag'] = b['isFlag'] || 0;
+                    return b['isFlag'] - a['isFlag'];
+                });
+                console.log(ary);
+                $('.content>ul').html(ejs.render($('#listTemplate').html(), {data: ary}));
                 listScroll.refresh();
             }
         });

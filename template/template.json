@@ -2,16 +2,58 @@
   {
     "name": "孙勇健",
     "class": "2016年第03期",
+    "isFlag":2,
     "address": "https://zhufengpeixun.github.io/studentWorks/template/sunyongjian/"
   },
   {
     "name": "曹美燕",
     "class": "2016年第03期",
+    "isFlag":1,
     "address": "https://zhufengpeixun.github.io/studentWorks/template/caomeiyan/"
   },
   {
     "name": "李伟",
     "class": "2016年第03期",
     "address": "https://zhufengpeixun.github.io/studentWorks/template/liwei/"
+  },
+  {
+    "name": "乌庆杰",
+    "class": "2016年第03期",
+    "address": "https://zhufengpeixun.github.io/studentWorks/template/wuqingjie/"
+  },
+  {
+    "name": "赵全军",
+    "class": "2016年第03期",
+    "address": "https://zhufengpeixun.github.io/studentWorks/template/zhaoquanjun/"
+  },
+  {
+    "name": "闫亚杰",
+    "class": "2016年第03期",
+    "address": "https://zhufengpeixun.github.io/studentWorks/template/yanyajie/"
+  },
+  {
+    "name": "安欢",
+    "class": "2016年第03期",
+    "address": "https://zhufengpeixun.github.io/studentWorks/template/anhuan/"
+  },
+  {
+    "name": "李飞",
+    "class": "2016年第03期",
+    "address": "https://zhufengpeixun.github.io/studentWorks/template/lifei/"
+  },
+  {
+    "name": "胡文哲",
+    "class": "2016年第03期",
+    "address": "https://zhufengpeixun.github.io/studentWorks/template/huwenzhe/"
+  },
+  {
+    "name": "刘哲",
+    "class": "2016年第03期",
+    "address": "https://zhufengpeixun.github.io/studentWorks/template/liuzhe/"
+  },
+  {
+    "name": "尤成",
+    "class": "2016年第03期",
+    "address": "https://zhufengpeixun.github.io/studentWorks/template/youcheng/"
   }
 ]
