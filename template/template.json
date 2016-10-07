@@ -44,7 +44,7 @@
   {
     "name": "胡文哲",
     "class": "2016年第03期",
-    "address": "https://zhufengpeixun.github.io/studentWorks/template/huwenzhe/"
+    "address": "https://zhufengpeixun.github.io/studentWorks/template/huwenzhe/aboutMe.html"
   },
   {
     "name": "刘哲",
@@ -55,5 +55,11 @@
     "name": "尤成",
     "class": "2016年第03期",
     "address": "https://zhufengpeixun.github.io/studentWorks/template/youcheng/"
+  },
+  {
+    "name": "傅佩琪",
+    "class": "2016年第04期",
+    "isFlag":1,
+    "address": "https://zhufengpeixun.github.io/studentWorks/template/fupeiqi/"
   }
 ]
